@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17670-8">
+   <path d="m0,288.75l201.25,0l0,-288.75l-201.25,0l0,288.75z" id="path17672-4"/>
+  </clipPath>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18098-9">
+   <path d="m0,288.75l201.25,0l0,-288.75l-201.25,0l0,288.75z" id="path18100-2"/>
+  </clipPath>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17356-3">
+   <path d="m0,288.75l201.25,0l0,-288.75l-201.25,0l0,288.75z" id="path17358-6"/>
+  </clipPath>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18256-8">
+   <path d="m0,288.75l201.25,0l0,-288.75l-201.25,0l0,288.75z" id="path18258-5"/>
+  </clipPath>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17038-7">
+   <path d="m0,288.75l201.25,0l0,-288.75l-201.25,0l0,288.75z" id="path17040-4"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m590.49999,254.62932l-11.24222,9.9235l2.24844,0l0,12.8177l6.74534,0l0,-7.5644l4.65106,0l0.00001,7.5644l6.59116,0l0,-12.8177l2.24845,0l-11.24224,-9.9235l0,0l0,0l0,0z" fill="none" id="svg_2"/>
+  <path d="m28,16a12.5,12.5 0 1 1 -25,0a12.5,12.5 0 1 1 25,0z" fill="#000000" fill-rule="nonzero" id="svg_3" stroke-width="3.543307"/>
+ </g>
+</svg>

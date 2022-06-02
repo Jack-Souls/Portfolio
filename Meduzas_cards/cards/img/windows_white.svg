@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" class="SvgSymbol-module_root__2CsRW SvgSymbol-module_card__1XAqw" data-testid="svg-symbol">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m9,5.5a0.5,0.5 0 0 1 0.5,0.5l0,5a0.5,0.5 0 0 1 -0.5,0.5l-5,0a0.5,0.5 0 0 1 -0.5,-0.5l0,-5a0.5,0.5 0 0 1 0.5,-0.5l5,0zm-0.5,1l-4,0l0,4l4,0l0,-4zm2.5,-3a0.5,0.5 0 0 1 0.5,0.5l0,5a0.5,0.5 0 1 1 -1,0l0,-4.5l-4.5,0a0.5,0.5 0 0 1 0,-1l5,0z" fill="#ffffff" fill-rule="nonzero" id="svg_1"/>
+ </g>
+</svg>

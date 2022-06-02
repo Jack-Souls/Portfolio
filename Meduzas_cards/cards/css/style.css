@@ -1,0 +1,372 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@font-face {
+    font-family: 'PF Regal Text Pro RegularB';
+    src: url('../fonts/subset-PFRegalTextPro-RegularB.eot');
+    src: local('PFRegalTextPro-RegularB'),
+        url('../fonts/subset-PFRegalTextPro-RegularB.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-PFRegalTextPro-RegularB.woff2') format('woff2'),
+        url('../fonts/subset-PFRegalTextPro-RegularB.woff') format('woff'),
+        url('../fonts/subset-PFRegalTextPro-RegularB.ttf') format('truetype'),
+        url('../fonts/subset-PFRegalTextPro-RegularB.svg#PFRegalTextPro-RegularB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/subset-ProximaNova-Regular.eot');
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('../fonts/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/subset-ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/subset-ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url('../fonts/proxima_nova_semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/proxima_nova_semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/proxima_nova_semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/proxima_nova_semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/proxima_nova_semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/proxima_nova_semibold.svg#proxima_nova_semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+		font-weight: 600;
+		font-style: normal;	
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/subset-ProximaNova-Bold.eot');
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('../fonts/subset-ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/subset-ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/subset-ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	width: 100%;
+	height: 385px;
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	color: white;
+	text-align: center;
+	background-color: #1a1a1a;
+}
+
+.header_picture {
+	width: 150px;
+	height: 150px;
+	margin: 40px 0px 30px 0px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 10px;
+	color: #b88b59;
+	margin: 0px 0px 10px 0px;
+}
+
+h1 {
+	display: inline-block;
+	width: 840px;
+	font-size: 37px;
+	line-height: 42px;
+	color: #fff;
+	margin: 0px 0px 15px 0px;
+}
+
+.cards_number {
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	display: inline-block;
+	width: 840px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #fff;
+	opacity: 60%;
+	margin: 0px 0px 30px 0px;
+}
+
+.point {
+	position: relative;
+	top: 6px;
+	width: 2px;
+	height: 2px;
+}
+
+.sidebar {
+	position: sticky;
+	top: 15px;
+	float: left;
+	display: block;
+
+	width: 335px;
+	height: auto;
+	margin: 15px 15px 0px 160px;
+	padding: 20px 15px;
+
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: rgba(39, 39, 39, 0.2) 0px 0px 0px 1px;
+	box-shadow: #b88b59 0px -4px 0px 0px;
+}
+
+.side_headers {
+	font-family: 'Proxima Nova Semibold', Arial, "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 4px 20px;
+}
+
+li {
+	font-family: 'Proxima Nova Semibold', Arial, "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #b88b59;
+	padding: 4px 14px;
+}
+
+.cards_side {
+	font-family: 'PF Regal Text Pro RegularB', Georgia, serif;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+h4 {
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
+	color: #b88b59;
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+h5 {
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 34px;
+	color: #1d1d1d;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+p {
+	margin-top: 20px;
+}
+
+.card {
+	width: 680px;
+	padding: 25px;
+	margin: 15px 15px 15px 511px;
+
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: rgba(39, 39, 39, 0.2) 0px 0px 0px 1px;
+}
+
+.card_links {
+	width: 680px;
+	padding: 25px;
+	margin: 15px 15px 15px 511px;
+
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: rgba(39, 39, 39, 0.2) 0px 0px 0px 1px;
+
+	font-family: 'Proxima Nova Semibold', Arial, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #5c5c5c;
+}
+
+.links {
+	display: flex;
+}
+
+.linksP {
+	padding-right: 17px;
+}
+
+.linksPHover {
+	color: #5c5c5c;
+}
+
+.linksPHover:visited {
+	color: #5c5c5c;
+}
+
+.linksPHover:hover {
+	opacity: 80%;
+}
+
+.module_links {
+	border: 1px solid rgba(39, 39, 39, 0.2);
+	border-radius: 5px;
+	background-color: rgba(242, 242, 242, 0.5);
+	color: black;
+}
+
+.module_links:hover {
+	background-color: rgba(242, 242, 242, 0.8);
+	cursor: pointer;
+}
+
+.module_links:active {
+	border: 1px solid #b88b59;
+	background-color: rgba(184, 139, 89, 0.1);
+}
+
+.modal-body {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.modal_window {
+	display: block;
+	width: 320px;
+	height: auto;
+
+	position: relative;
+	top: 50%;
+	left: 87.7%;
+	transform: translate(-50%,-50%);
+
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px 0px 20px 20px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px 1px;
+	
+	font-family: 'Proxima Nova Rg', Arial, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.modal_header {
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #1a1a1a;
+	margin-bottom: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.pointblack {	
+	position: relative;
+	top: 10px;
+	width: 2px;
+	height: 2px;	
+}
+
+.zakladka {
+	position: relative;
+	top: 4px;
+}
+
+.links_image {
+	width: 630px;
+	height: 436px;
+	border-radius: 10px;
+	margin-bottom: 18px;
+}
+
+h6 {
+	font-family: 'Proxima Nova Bold', Arial, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #1a1a1a;
+}
+
+.links_view {
+	border-bottom: 1px solid #b88b59;
+	height: 20px;
+}
+
+.links_view:visited {
+	color: black;
+	border-bottom: 1px solid #b88b59;
+	height: 20px;
+}
+
+.links_view:hover {
+	color: #b88b59;
+	border-bottom: 1px solid #b88b59;
+	height: 20px;
+}
+
+.sidebar_links {
+	color: black;	
+}
+
+.sidebar_links:visited {
+	color: black;
+}
+
+.sidebar_links:hover {
+	color: #5c5c5c;
+}

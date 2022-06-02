@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'PF Regal Text Pro RegularB';
+    src: url('subset-PFRegalTextPro-RegularB.eot');
+    src: local('PFRegalTextPro-RegularB'),
+        url('subset-PFRegalTextPro-RegularB.eot?#iefix') format('embedded-opentype'),
+        url('subset-PFRegalTextPro-RegularB.woff2') format('woff2'),
+        url('subset-PFRegalTextPro-RegularB.woff') format('woff'),
+        url('subset-PFRegalTextPro-RegularB.ttf') format('truetype'),
+        url('subset-PFRegalTextPro-RegularB.svg#PFRegalTextPro-RegularB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
