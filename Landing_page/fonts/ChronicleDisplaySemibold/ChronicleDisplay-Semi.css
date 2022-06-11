@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Chronicle Display Semi';
+    src: url('subset-ChronicleDisplay-Semi.eot');
+    src: local('Chronicle Display Semibold'), local('ChronicleDisplay-Semi'),
+        url('subset-ChronicleDisplay-Semi.eot?#iefix') format('embedded-opentype'),
+        url('subset-ChronicleDisplay-Semi.woff2') format('woff2'),
+        url('subset-ChronicleDisplay-Semi.woff') format('woff'),
+        url('subset-ChronicleDisplay-Semi.ttf') format('truetype'),
+        url('subset-ChronicleDisplay-Semi.svg#ChronicleDisplay-Semi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

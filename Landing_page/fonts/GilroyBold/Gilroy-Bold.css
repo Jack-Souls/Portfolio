@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./../GilroyBold/Gilroy-Bold.eot');
+    src: local('Gilroy-Bold'),
+        url('./../GilroyBold/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./../GilroyBold/Gilroy-Bold.woff2') format('woff2'),
+        url('./../GilroyBold/Gilroy-Bold.woff') format('woff'),
+        url('./../GilroyBold/Gilroy-Bold.ttf') format('truetype'),
+        url('./../GilroyBold/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
